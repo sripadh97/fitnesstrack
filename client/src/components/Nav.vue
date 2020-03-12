@@ -19,7 +19,7 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-light" href="/SigIn">
+          <a class="button is-light" href="/SignIn">
          SignIn
           </a>
         </div>
