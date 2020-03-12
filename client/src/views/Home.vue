@@ -4,14 +4,12 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
-          Welcome to the Animal Rescue League        
+          Regular Fitness!         
         </h1>
         <h2 class="subtitle">
-          Make sure you check out our upcoming events below
+          Regular Fitness...Relieve from Stress!
         </h2>
-        <div class="button-block">
-          <button class="button is-xl is-dark">Sign Up to Browse Events</button>
-        </div>
+        
       </div>
     </div>
   </section>
@@ -27,11 +25,11 @@ export default {
 <style lang="scss" scoped>
   .hero {  
     text-align: center;
-    background-image: url('https://cdn.auth0.com/blog/vue-meetup/event-banner.png');
+    background-image: url('https://www.polar.com/sites/default/files/sc/running-index-intro-bg-desktop.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 700px;
   }
   .hero-body .title {
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
