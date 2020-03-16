@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import { Login } from "../models/Users";
+import { Signin } from "../models/Users";
 
 export default {
     data(){
@@ -45,7 +45,7 @@ export default {
         login(){
             try {
                 Login(this.email, this.password);
-                this.$router.push('/game');
+                this.$router.push('/about');
             } catch (error) {
                 this.error = error;
             }
