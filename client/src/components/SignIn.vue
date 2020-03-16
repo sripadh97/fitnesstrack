@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import { Signin } from "../";
+import { Signin } from "../users";
 
 export default {
     data(){
