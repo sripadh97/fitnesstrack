@@ -1,5 +1,7 @@
+
+
 <template>
-  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     
 
@@ -11,15 +13,15 @@
   </div>
 
   <div :class="{ 'is-active':isOpen }" class="navbar-menu">
-    <div class="navbar-start">
+    <div class="navbar-end">
       <router-link to="/" class="navbar-item" active-class="is-current">Home</router-link> 
       <router-link to="/about" class="navbar-item" active-class="is-current">About</router-link>
       
     </div>
-    <div class="navbar-end">
+    <div class="navbar-start">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-light" href="/SignIn">
+          <a class="button is-success" href="/SignIn">
          SignIn
           </a>
         </div>
@@ -46,7 +48,7 @@ data: ()=>({
       font-weight: bold;
       color: #2c3e50;
       &.router-link-exact-active {
-        color:  #d45757;
+        color: blue($color: #000000);
       }
     }
   }
