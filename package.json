@@ -18,10 +18,10 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/sanjureddy007/MYFITNESSTRACKER.git"
+      "url": "git+https://github.com/sripadh97/fitnesstrack.git"
     },
     "bugs": {
-      "url": "https://github.com/sanjureddy007/MYFITNESSTRACKER/issues"
+      "url": "https://github.com/sripadh97/fitnesstrack/issues"
     },
-    "homepage": "https://github.com/sanjureddy007/MYFITNESSTRACKER#readme"
+    "homepage": "https://github.com/sripadh97/fitnesstrack#readme"
   }
