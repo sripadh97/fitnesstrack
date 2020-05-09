@@ -16,7 +16,10 @@
     <div class="navbar-end">
       <router-link to="/" class="navbar-item" active-class="is-current">Home</router-link> 
       <router-link to="/about" class="navbar-item" active-class="is-current">About</router-link>
-      
+      <router-link to="/heartrate" class="navbar-item" active-class="is-current">Heart Rate</router-link>
+      <router-link to="/jog" class="navbar-item" active-class="is-current">Jog</router-link>
+      <router-link to="/run" class="navbar-item" active-class="is-current">Run</router-link>
+      <router-link to="/SignIn" class="navbar-item" active-class="is-current">Sign In</router-link>
     </div>
     <div class="navbar-start">
       <div class="navbar-item">

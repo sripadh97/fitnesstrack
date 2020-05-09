@@ -2,6 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import SignIn from '../components/SignIn.vue'
+import About from '../views/About.vue'
+import heartrate from '../views/heartrate.vue'
+import jog from '../views/jog.vue'
+import run from '../views/run.vue'
 
 Vue.use(VueRouter)
 
@@ -23,7 +27,39 @@ const routes = [
     path: '/SignIn',
     name: 'SignIn',
     component: SignIn
-  }
+  },
+  {
+    path: '/heartrate',
+    name: 'heartrate',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: heartrate
+  },
+  {
+    path:'/jog',
+    name: '/jog',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: jog
+  },
+  {
+    path: '/run',
+    name: '/run',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: '/run',
+  },
+  {
+    path:'/signin',
+    name: '/signin',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: '/SignIn',
+  },
 ]
 
 const router = new VueRouter({
