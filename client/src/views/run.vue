@@ -39,7 +39,7 @@ export default{
         } catch (error) {
             this.error = error;
         }
-    }
+    },
     created(){
         run.Init()
     }
