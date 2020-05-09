@@ -1,7 +1,7 @@
 const foodlimitList = [
-    {foodname:"tomato" , quantity:100}
-    {foodname:"spinach" , quantity:110}
-    {foodname:"Meat" , quantity:50}
+    {foodname:"tomato" , quantity:100},
+    {foodname:"spinach", quantity:50},
+    {foodname: "meat", quantity:20}
 ];
 function addFoddlimit(foodlimit,quantity) {
     dietList.push({foodlimit:foodlimit,quantity:quantity});
