@@ -13,12 +13,13 @@
             <input class="input" type="password" placeholder="Password" v-model="password">
             <span class="icon is-small is-left">
             <i class="fas fa-lock"></i>
-            </span> </p>
+            </span> 
+            </p>
             </div>
             <div class="field">
             <p class="control">
             <button class="button is-success">
-                SignIn
+                Sign Up
             </button>
         </p>
     </div>
