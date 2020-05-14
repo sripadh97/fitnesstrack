@@ -20,6 +20,7 @@
       <router-link to="/jog" class="navbar-item" active-class="is-current">Jog</router-link>
       <router-link to="/run" class="navbar-item" active-class="is-current">Run</router-link>
       <router-link to="/SignIn" class="navbar-item" active-class="is-current">Sign In</router-link>
+      <router-link to="/Search" class="navbar-item" active-class="is-current">Search</router-link>
     </div>
     <div class="navbar-start">
       <div class="navbar-item">
