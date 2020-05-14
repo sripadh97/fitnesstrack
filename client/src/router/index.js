@@ -6,6 +6,7 @@ import About from '../views/About.vue'
 import heartrate from '../views/heartrate.vue'
 import jog from '../views/jog.vue'
 import run from '../views/run.vue'
+import autoct from '../views/autoct.vue'
 
 Vue.use(VueRouter)
 
@@ -59,6 +60,14 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: SignIn,
+  },
+  {
+    path:'/autoct',
+    name:'autoct',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: autoct,
   },
 ]
 
